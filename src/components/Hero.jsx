@@ -1,6 +1,14 @@
 export default function Hero () {
   
   return (
+    <>
+    <div class="video-wrapper">
+      <video playsinline autoplay muted loop poster="cake.jpg">
+        <source src="https://nicholasmorgandev.github.io/xdra/public/images/leaves.mp4" type="video/mp4"/>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
     <div className="hero-bg">
       <section className="hero">
 
@@ -18,8 +26,8 @@ export default function Hero () {
           Ventures. Explore Competitive Business Strategies and Efficient Back-
           Office Management - Your Key to Flexibility and Success.
         </p>
-
       </section>
-    </div>
+      </div>
+    </>
   )
 }

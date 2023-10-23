@@ -4,6 +4,10 @@
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 nav {
   margin: 20px;
   background-color: white;
@@ -12,11 +16,16 @@ nav {
     list-style-type: none;
     flex-direction: row;
     display: flex;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     justify-content: space-around;
     padding: 15px;
-    font-weight: 700;
+    font-weight: 500;
+    //Logo
+    img {
+      width: 150px;
+      height: 40px;
+    }
   }
   a {
     color: black;
@@ -24,7 +33,7 @@ nav {
 }
 
 .hero-bg {
-  background-image: url("https://i.vimeocdn.com/video/889612836-bb3fe880b17f82912af7961a01ed5c9830146c740e328fb39cf798ae5a4419b3-d?mw=1500&mh=844&q=70");
+  background-image: url("https://nicholasmorgandev.github.io/xdra/public/images/leaves.mp4");
   width: 100%;
   height:600px;
   display: flex;
@@ -38,7 +47,7 @@ nav {
   h1 {
     padding: 40px;
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 500;
   }
   p {
     width: 70%;

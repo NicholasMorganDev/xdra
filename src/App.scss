@@ -1,0 +1,65 @@
+*, *:after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+nav {
+  margin: 20px;
+  background-color: white;
+  margin-left: 0 !important;
+  ul {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-weight: 700;
+  }
+  a {
+    color: black;
+  }
+}
+
+.hero-bg {
+  background-image: url("https://i.vimeocdn.com/video/889612836-bb3fe880b17f82912af7961a01ed5c9830146c740e328fb39cf798ae5a4419b3-d?mw=1500&mh=844&q=70");
+  width: 100%;
+  height:600px;
+  display: flex;
+}
+
+.hero, .rental {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    padding: 40px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  p {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+  }
+}
+
+.rental-bg {
+  background-image: url("https://resources.altium.com/sites/default/files/blogs/PCB%20Floorplanning%3A%20The%20First%20Step%20to%20PCB%20Design%20Integrity-35118.jpg");
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+  // padding: 10px;
+  align-items: center;
+  display: flex;
+}

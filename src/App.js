@@ -1,6 +1,6 @@
 import './App.scss';
 import Nav from './components/Nav';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './scenes/Home';
 
@@ -12,7 +12,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
           </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
 
     </>

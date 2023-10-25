@@ -15,9 +15,12 @@
 }
 
 Nav {
-  margin: 20px;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
   background-color: white;
   margin-left: 0 !important;
+  align-items: center;
   ul {
     list-style-type: none;
     flex-direction: row;
@@ -25,16 +28,19 @@ Nav {
     font-size: 30px;
     text-align: center;
     justify-content: space-around;
-    padding: 15px;
+    // padding: 15px;
     font-weight: 500;
     //Logo
     img {
-      width: 150px;
-      height: 40px;
+      width: 200px;
+      height: 60px;
     }
   }
   a {
     color: black;
+  }
+  li {
+    margin-top: 20px;
   }
 }
 

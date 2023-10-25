@@ -9,7 +9,7 @@ export default function Hero () {
         <div className="overlay"></div>
           <video src={videoBg} autoPlay loop muted />
           <div className="content">
-            <h1>Empower Your Business Through Optimization and Training</h1>
+            <h1>We Drive Business Growth Through Process Optimization and Training</h1>
           </div>
       </div>
       

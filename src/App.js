@@ -4,6 +4,8 @@ import Nav from './components/Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './scenes/Home';
 import About from './scenes/About';
+import Training from './scenes/Training';
+import BPO from './scenes/BPO';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/about-us" element={<About/>}/>
+            <Route path="/training" element={<Training/>}/>
+            <Route path="/bpo" element ={<BPO/>}/>
           </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

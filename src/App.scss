@@ -19,34 +19,33 @@ Nav {
   height: 100%;
   margin: 10px;
   background-color: white;
-  margin-left: 0 !important;
   align-items: center;
+  flex-direction: row;
+  display: flex;
+  .logo {
+    width: 200px;
+    height: 60px;
+  }
   ul {
-    list-style-type: none;
-    flex-direction: row;
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    justify-content: space-around;
-    // padding: 15px;
-    font-weight: 500;
-    //Logo
-    img {
-      width: 200px;
-      height: 60px;
-    }
+    font-weight: 300;
+    margin-left: 700px;
   }
   a {
     color: black;
   }
   li {
-    margin-top: 20px;
+    list-style-type: none !important;//remove underline
+    text-decoration: none;
+    padding: 20px;
   }
 }
 
 .main {
   width: 100%;
-  height: 84vh;
+  height: 88vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,10 +59,10 @@ video {
 
 .overlay {
   position: absolute;
-  top: 40;
+  top: 88px;
   left: 0;
   width: 100%;
-  height: 84vh;
+  height: 88vh;
   background-color: rgba($color: #000000, $alpha: 0.4);
 }
 
@@ -81,40 +80,78 @@ video {
   font-size: 20px;
 }
 
-.hero-bg {
+.about-bg {
   background-image: url("https://img.freepik.com/premium-photo/lake-is-surrounded-by-trees-water-is-beautiful-reflection-fall-colors_581634-18712.jpg");
   width: 100%;
   height:600px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
 }
 
 
-.hero, .rental {
+.about {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: black;
+  background-color: white;
+  width: 50%;
+  height: 50%;
+  margin-left: 50px;
   h1 {
-    padding: 40px;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 300;
+    padding-bottom: 20px;
   }
   p {
     width: 70%;
-    font-weight: 500;
+    font-weight: 200;
     margin-right: auto;
     margin-left: auto;
     font-size: 25px;
   }
 }
 
-.placeholder-bg {
+.principals {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  // background-color: purple;
   width: 100%;
-  height: 300px;
-  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  img {
+    width: 45%;
+    height: 100vh;
+    margin-left: 50px;
+  }
+  section {
+    background-color: rgb(253, 143, 100);
+    color: black;
+    width: 40%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 70px;
+    padding: 20px;
+    h1 {
+      font-size: 50px;
+      font-weight: 300;
+      padding-bottom: 20px;
+    }
+    p {
+      font-weight: 200;
+      font-size: 25px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
 }
 
 .rental-bg {

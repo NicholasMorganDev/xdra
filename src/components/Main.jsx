@@ -1,7 +1,7 @@
 import React from "react";
 import videoBg from "../assets/hibiscus.mp4";
 
-export default function Hero () {
+export default function Main () {
   
   return (
     <>

@@ -60,11 +60,12 @@ video {
 
 .overlay {
   position: absolute;
-  top: 88px;
+  top: 110px;
   left: 0;
   width: 100%;
   height: 88vh;
   background-color: rgba($color: #000000, $alpha: 0.4);
+  // filter: blur(10px);
 }
 
 .content {
@@ -78,7 +79,9 @@ video {
   align-items: center;
   text-align: center;
   color: white;
-  font-size: 20px;
+  h1 {
+    font-size: 50px;
+  }
 }
 
 .about-bg {
@@ -159,16 +162,34 @@ video {
 
   background-color: lightcoral;
 }
+.button-bg {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+  
+  button {
+    color: black;
+    background-color: orange;
+  }
+  button:hover {
+    background-color: white;
+    border: orange solid 1px;
+  }
+}
 
 .rental-bg {
-  background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/132/553/large/george-turmanidze-0.jpg?1480632179");
+  background-image: url("https://www.wavy.com/wp-content/uploads/sites/3/2023/10/The-former-TCC-space-in-Portsmouth-that-will-turn-into-The-Mustard-Seed-Place.jpg?strip=1");
   width: 100%;
   height: 700px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 200px;
 }
+
 
 .rental {
   text-align: center;
@@ -185,7 +206,44 @@ video {
     font-size: 50px;
     font-weight: 300;
     padding-bottom: 20px;
-    padding-top: 40px;  
+    padding-top: 70px;  
+  }
+  p {
+    width: 70%;
+    font-weight: 200;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    padding-bottom: 70px;
+  }
+}
+
+.business-bg {
+  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/cycle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 88vh;
+  position: absolute;
+  
+}
+
+.business {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  width: 50%;
+  height: 60%;
+  margin-left: 50px;
+  background-color: white;
+  margin-top: 150px;
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
   p {
     width: 70%;
@@ -197,8 +255,21 @@ video {
   }
 }
 
-.business-bg {
-  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/cycle.jpg");
+.choice {
+  margin-top: 650px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  h1 {
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 
 footer {

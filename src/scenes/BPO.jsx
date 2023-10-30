@@ -1,6 +1,10 @@
+import Business from "../components/Business";
+
 export default function BPO () {
   
   return (
-    <h1>Placeholder</h1>
+    <>
+      <Business />
+    </>
   )
 }

@@ -192,7 +192,7 @@ video {
   }
 }
 
-.info1 {
+.info1, .info2 {
   font-size: 20px;
   padding: 50px;
 }
@@ -268,7 +268,6 @@ video {
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 100px;
 }
 
 
@@ -276,8 +275,8 @@ video {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: black;
+  justify-content: flex-end;
+  color: white;
 
   h1 {
     font-size: 35px;
@@ -290,7 +289,7 @@ video {
 }
 
 .business-bg {
-  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/cycle.jpg");
+  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/highdef-flower.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

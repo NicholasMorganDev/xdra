@@ -7,6 +7,7 @@ import Home from './scenes/Home';
 import About from './scenes/About';
 import Training from './scenes/Training';
 import BPO from './scenes/BPO';
+import Test from './components/Test';
 
 function App() {
   return (

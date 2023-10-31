@@ -1,4 +1,4 @@
-import placeholder from "../assets/BackupSmile.jpeg"
+import placeholder from "../assets/flower-droplets.jpg"
 
 export default function Principals () {
 
@@ -6,13 +6,14 @@ export default function Principals () {
     <div className="principals">
       <img src={placeholder} alt="Placeholder" />
       <section className="principals-text">
-        <h1>Who are We?</h1>
+        {/* <h1>Who are We?</h1> */}
         <p>
-              Experience Freedom as a Fractional Executive with XDRA BPO Services.
-              Embrace the Opportunity to Work with Multiple Small Businesses,
-              Shape Your Lifestyle, and Contribute Your Expertise to Next-Gen
-              Ventures. Explore Competitive Business Strategies and Efficient Back-
-              Office Management - Your Key to Flexibility and Success.
+          Our journey began from humble beginnings, and we collectively bring
+          over two decades of entrepreneurial experience. Our shared passion is
+          grounded in the invaluable lessons we've learned along the way. We
+          are driven by a profound desire to invest in and witness the growth of
+          individuals and businesses, serving as guides who bridge the gap
+          between their existing knowledge, learned skills, and possibilities.
         </p>
       </section>
     </div>

@@ -7,8 +7,8 @@ export default function Nav () {
       <nav>
           <Link to={"/"}><img className="logo" src="https://nicholasmorgandev.github.io/xdra/src/assets/logo.png" alt="Logo" /></Link>
         <ul>
-          <li><Link to={"/about-us"}>About Us</Link></li>
-          <li><Link to={"/training"}>Training Services</Link></li>
+          <li><Link to={"/about-us"}>Who We Are</Link></li>
+          <li><Link to={"/training"}>What We Do</Link></li>
           <li><Link to={"/bpo"}>Business Services</Link></li>
         </ul>
       </nav>

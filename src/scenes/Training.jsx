@@ -5,8 +5,8 @@ export default function Training () {
 
   return (
     <>
-      <Request />
       <Rental />
+      <Request />
     </>
   )
 }

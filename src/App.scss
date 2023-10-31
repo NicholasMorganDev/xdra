@@ -157,6 +157,10 @@ video {
 
 .banner1 {
   background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/banner1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  // width: 100%;
+  height: 200px;
 }
 
 .about-bg {

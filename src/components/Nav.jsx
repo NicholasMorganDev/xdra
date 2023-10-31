@@ -9,7 +9,7 @@ export default function Nav () {
         <ul>
           <li><Link to={"/about-us"}>Who We Are</Link></li>
           <li><Link to={"/training"}>What We Do</Link></li>
-          <li><Link to={"/bpo"}>Business Services</Link></li>
+          {/* <li><Link to={"/bpo"}>Business Services</Link></li> */}
         </ul>
       </nav>
     </div>

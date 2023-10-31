@@ -13,7 +13,9 @@ export default function Principals () {
           grounded in the invaluable lessons we've learned along the way. We
           are driven by a profound desire to invest in and witness the growth of
           individuals and businesses, serving as guides who bridge the gap
-          between their existing knowledge, learned skills, and possibilities.
+          between their existing knowledge, learned skills, and possibilities. XDRA delivers an eXperience, that demonstrates our dedication to
+          businesses, resulting in tangible gains and advancement of your
+          business objectives.
         </p>
       </section>
     </div>

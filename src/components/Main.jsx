@@ -10,7 +10,9 @@ export default function Main () {
           <video src={videoBg} autoPlay loop muted />
           {/* <script>videoBg.playbackRate = "2.0"</script> */}
           <div className="content">
-            <h1>We Drive Business Growth Through Process Optimization and Training</h1>
+            <h1>We Drive Business Growth</h1>
+            <h1>Through Process Optimization</h1>
+            <h1>and Training</h1>
           </div>
       </div>
       

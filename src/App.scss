@@ -31,7 +31,7 @@ Nav {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
-    margin-left: 700px;
+    margin-left: 800px;
   }
   a {
     text-decoration: none;
@@ -135,7 +135,7 @@ video {
   left: 0;
   width: 100%;
   height: 88vh;
-  background-color: rgba($color: #000000, $alpha: 0.4);
+  background-color: rgba($color: #000000, $alpha: 0.0);
   // filter: blur(10px);
 }
 
@@ -144,33 +144,27 @@ video {
   width: 50%;
   height: 100%;
   top: 0;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
-.banner1 {
-  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/banner1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  // width: 100%;
-  height: 200px;
-}
-
 .about-bg {
-  background-image: url("https://img.freepik.com/premium-photo/lake-is-surrounded-by-trees-water-is-beautiful-reflection-fall-colors_581634-18712.jpg");
+  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/flower-droplets.jpg");
   width: 100%;
   height:600px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
+  
 }
 
 
@@ -182,7 +176,7 @@ video {
   color: black;
   background-color: white;
   width: 50%;
-  height: 50%;
+  height: 55%;
   margin-left: 50px;
   h1 {
     font-size: 50px;
@@ -215,7 +209,7 @@ video {
     background-color: rgb(253, 143, 100);
     color: black;
     width: 45%;
-    height: 60%;
+    height: 70%;
     align-items: center;
     display: flex;
     flex-direction: column;

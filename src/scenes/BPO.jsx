@@ -1,4 +1,5 @@
 import Business from "../components/Business";
+import Footer from "../components/Footer";
 import Interested from "../components/Interested";
 import Principals from "../components/Principals";
 import Strategy from "../components/Strategy";
@@ -13,6 +14,7 @@ export default function BPO () {
       <Interested />
       <Principals />
       <Strategy />
+      <Footer />
     </>
   )
 }

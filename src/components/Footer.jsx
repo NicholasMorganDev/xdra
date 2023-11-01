@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer () {
 
   const currentYear = new Date().getFullYear();
@@ -5,9 +7,17 @@ export default function Footer () {
 
   return (
     <footer>
-      <p>&copy; {currentYear} Nicholas Morgan</p>
-      <br/>
-      {/* <a className="git-link" href={gitHubUrl} rel="noreferrer" target="_blank">See Code In GitHub</a> */}
+      <ul>
+        <li><Link to={"/"}>Home</Link></li>
+        <li><Link to={"/about-us"}>Who We Are</Link></li>
+        <li><Link to={"/training"}>Training Services</Link></li>
+        <li><Link to={"/bpo"}>Business Services</Link></li>
+
+      </ul>
+      <div className="copy">
+
+        <p>&copy;&nbsp;{currentYear}&nbsp;XDRA</p>
+      </div>
     </footer>
   )
 }

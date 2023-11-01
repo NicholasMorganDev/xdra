@@ -2,6 +2,9 @@ export default function Info1 () {
 
   return (
     <div className="info1">
+      <h1>
+        Our Mission
+      </h1>
       <p>
         With more than two decades of experience, our mission and values are
         rooted in proactively addressing the challenges of growing, sustaining,

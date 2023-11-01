@@ -20,7 +20,6 @@ function App() {
             <Route path="/training" element={<Training/>}/>
             <Route path="/bpo" element ={<BPO/>}/>
           </Routes>
-        {/* <Footer /> */}
       </BrowserRouter>
 
     </>

@@ -5,7 +5,7 @@ export default function Business () {
       <section className="business">
         <h1>Optimize Your Business</h1>
         <p>
-          Unlock You Business' Full Potential!
+          Unlock You Business' Full Potential
         </p>
       </section>
     </div>

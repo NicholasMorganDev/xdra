@@ -167,24 +167,26 @@ video {
 }
 
 
-.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: white;
-  h1 {
-    font-size: 50px;
-    font-weight: 300;
-  }
-  p {
-    font-weight: 200;
-    font-size: 25px;
-  }
-}
+// .about {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+//   color: white;
+//   h1 {
+//     font-size: 50px;
+//     font-weight: 300;
+//   }
+//   p {
+//     font-weight: 200;
+//     font-size: 25px;
+//   }
+// }
 
 .info1, .info2, .info3 {
   font-size: 20px;
   padding: 50px;
+  width: 60%;
+  margin-left: 100px;
 }
 
 .principals {
@@ -281,7 +283,7 @@ video {
 }
 
 .rental-bg {
-  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/lays-flower.jpg");
+  background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/thimble-flower.jpg");
   width: 100%;
   height: 500px;
   display: flex;
@@ -290,22 +292,22 @@ video {
 }
 
 
-.rental {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: white;
+// .rental {
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: flex-end;
+//   color: white;
 
-  h1 {
-    font-size: 35px;
-    font-weight: 300;
-  }
-  p {
-    font-weight: 200;
-    font-size: 18px;
-  }
-}
+//   h1 {
+//     font-size: 35px;
+//     font-weight: 300;
+//   }
+//   p {
+//     font-weight: 200;
+//     font-size: 18px;
+//   }
+// }
 
 .business-bg {
   background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/highdef-flower.jpg");
@@ -316,18 +318,20 @@ video {
   display: flex;
 }
 
-.business {
+.business, .about, .rental {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   color: white;
+  padding-left: 200px;
+  padding-bottom: 250px;
   h1 {
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 45px;
+    font-weight: 500;
   }
   p {
     font-weight: 200;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 

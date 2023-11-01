@@ -7,21 +7,30 @@ export default function Strategy () {
       <div className="strategy-bg">
         <section className="strategy-text">
           <p>
-          Unlock Your Business' Potential with XDRA's Cost-Effective Fractional
-          C-Suite Experts
-          XDRA serves as your fractional executive gateway, offering cost-
-          effective and time-efficient alternatives to traditional business
-          leadership and strategy. Whether you need expertise in finance,
+          High operations maturity yields higher value, better results, a
+          competitive advantage, scalability, improved financial performance and
+          long-term sustainability.
+          When a business operates with high maturity, it can perform its
+          functions in a more efficient, cost-effective, and sustainable manner.
+          Working with our fractional executives offer a more cost-effective and
+          immediate approach, allowing both small-mid size companies and C-
+          suite executives the flexibility to work outside of the traditional models
+          while equally benefiting from the experience.
+          Operating with high maturity enhances efficiency, cost-effectiveness,
+          and sustainability. Our fractional executive approach offers a more
+          cost-effective and immediate solution, providing flexibility for both
+          small to mid-sized companies and C-suite executives outside of
+          traditional models, while ensuring mutual benefits.
+          Our fractional executive model provides executives with access small to
+          mid-sized businesses, new business ideas, opportunities to leverage
 
-          marketing, operations, or more, our fractional C-Suite team provides
-          tailored solutions to empower founders and drive business growth.
-          Through our Business Process Optimization (BPO) services, we
-          collaborate with small to mid-size business owners by leveraging our C-
-          suite experts in operations, finances, IT/AI, marketing, contracting,
-          compliance, legal, and business development to Reimagine, Reinvent,
-          Reshape, and Recognize processes. This not only leads to cost reduction
-          but also revenue enhancement and the maximization of resources - a
-          formula for remarkable growth.
+          their business acumen and the gratification of witnessing the growth
+          and success of multiple founders.
+          Small to mid-sized businesses often lack in-house expertise in
+          developing effective business strategies for sustainable growth, not to
+          mention the challenges that arise. This often leads to a time-consuming
+          and expensive quest for answers. Fortunately, with XDRA, the solutions
+          they need are just a decision away!
           </p>
         </section>
         <img src={placeholder} alt="Placeholder" />

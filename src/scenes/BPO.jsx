@@ -1,12 +1,18 @@
 import Business from "../components/Business";
-import Choice from "../components/Choice.jsx";
+import Interested from "../components/Interested";
+import Principals from "../components/Principals";
+import Strategy from "../components/Strategy";
+import Info3 from "../components/info3.jsx";
 
 export default function BPO () {
   
   return (
     <>
       <Business />
-      <Choice />
+      <Info3 />
+      <Interested />
+      <Principals />
+      <Strategy />
     </>
   )
 }

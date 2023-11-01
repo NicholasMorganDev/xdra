@@ -159,40 +159,30 @@ video {
 .about-bg {
   background-image: url("https://nicholasmorgandev.github.io/xdra/src/assets/flower-droplets.jpg");
   width: 100%;
-  height:600px;
+  height:500px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  align-items: center;
   
 }
 
 
 .about {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: black;
-  background-color: white;
-  width: 50%;
-  height: 55%;
-  margin-left: 50px;
+  justify-content: flex-end;
+  color: white;
   h1 {
     font-size: 50px;
     font-weight: 300;
-    padding-bottom: 20px;
   }
   p {
-    width: 70%;
     font-weight: 200;
-    margin-right: auto;
-    margin-left: auto;
     font-size: 25px;
   }
 }
 
-.info1, .info2 {
+.info1, .info2, .info3 {
   font-size: 20px;
   padding: 50px;
 }
@@ -200,7 +190,6 @@ video {
 .principals {
   margin-top: 200px;
   margin-bottom: 50px;
-  // background-color: purple;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -211,9 +200,8 @@ video {
     margin-left: 50px;
   }
   section {
-    background-color: rgb(253, 143, 100);
     color: black;
-    width: 45%;
+    width: 60%;
     height: 70%;
     align-items: center;
     display: flex;
@@ -235,11 +223,42 @@ video {
   }
 }
 
-.carousel-bg {
+.strategy-bg {
+  margin-top: 200px;
+  margin-bottom: 50px;
   width: 100%;
-
-  background-color: lightcoral;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  img {
+    width: 40%;
+    height: 100vh;
+    margin-right: 50px;
+  }
+  section {
+    color: black;
+    width: 60%;
+    height: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 70px;
+    padding: 20px;
+    h1 {
+      font-size: 50px;
+      font-weight: 300;
+    }
+    p {
+      font-weight: 200;
+      font-size: 25px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
 }
+
 .button-bg {
   width: 100%;
   height: 30vh;
@@ -293,53 +312,25 @@ video {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 88vh;
-  position: absolute;
-  
+  height: 500px;
+  display: flex;
 }
 
 .business {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  color: black;
-  width: 50%;
-  height: 60%;
-  margin-left: 50px;
-  background-color: white;
-  margin-top: 150px;
+  justify-content: flex-end;
+  color: white;
   h1 {
     font-size: 35px;
     font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 20px;
   }
   p {
-    width: 70%;
     font-weight: 200;
-    margin-right: auto;
-    margin-left: auto;
     font-size: 18px;
-    padding-bottom: 40px;
   }
 }
 
-.choice {
-  margin-top: 650px;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin-left: 100px;
-  margin-bottom: 100px; 
-  h1 {
-    font-size: 35px;
-    padding-bottom: 20px;
-  }
-  p {
-    font-size: 20px;
-  }
-}
 
 footer {
   text-align: center;
